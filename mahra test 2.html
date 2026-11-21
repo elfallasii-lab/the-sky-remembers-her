@@ -1,0 +1,231 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="theme-color" content="#080d19"><title>the sky remembers her — for mahra</title><style>
+:root{--gold:#d8b985;--ink:#080d19;--cream:#f4e8d5;--muted:#b8b3bf}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--ink);color:var(--cream);font:16px/1.75 Georgia,'Times New Roman',serif;overflow-x:hidden}button{font:inherit;cursor:pointer}button:focus-visible{outline:2px solid #f5d69a;outline-offset:4px}.sky{position:fixed;inset:0;z-index:-3;background:radial-gradient(ellipse at 70% 12%,#263452 0,transparent 48%),radial-gradient(ellipse at 20% 78%,#1d2039 0,transparent 52%),linear-gradient(#060912,#10192a 65%,#080d19)}.stars{position:fixed;inset:0;z-index:-2;pointer-events:none}.star{position:absolute;width:2px;height:2px;background:#fff2d6;border-radius:50%;animation:twinkle 3s infinite alternate}.haze{position:fixed;inset:auto -25% -20% -25%;height:45vh;z-index:-1;background:radial-gradient(ellipse,#39435b50,transparent 65%);filter:blur(35px);animation:drift 14s ease-in-out infinite alternate}@keyframes twinkle{from{opacity:.15;transform:scale(.6)}to{opacity:.9;transform:scale(1.5)}}@keyframes drift{to{transform:translateX(12%)}}@keyframes appear{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:translateY(0)}}.wrap{width:min(100% - 32px,760px);margin:auto}.top{position:sticky;top:0;z-index:5;background:#090e19d9;backdrop-filter:blur(15px);border-bottom:1px solid #e8c99920;padding:11px 0}.top-inner{display:flex;align-items:center;justify-content:space-between;gap:12px}.brand{font:small-caps 14px Georgia;letter-spacing:2px;color:var(--gold)}.progress{height:3px;background:#ffffff20;width:110px;border-radius:8px;overflow:hidden}.progress>div{height:100%;background:var(--gold);transition:width .5s}.eyebrow{font:11px/1.5 system-ui,sans-serif;letter-spacing:3px;text-transform:uppercase;color:var(--gold)}h1,h2{font-weight:400;line-height:1.15;letter-spacing:-1px}h1{font-size:clamp(44px,10vw,82px);margin:18px 0}h2{font-size:clamp(33px,7vw,54px);margin:10px 0 24px}p{margin:0 0 18px}.lead{font-size:clamp(19px,4vw,25px);color:#e7d7c2}.sub{color:var(--muted)}.center{text-align:center}.hero{min-height:calc(100svh - 55px);display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:42px 0}.moon{width:155px;height:155px;border-radius:50%;margin:0 auto 35px;background:radial-gradient(circle at 35% 30%,#fff1c9,#d3d6e0 42%,#7f8aa7 78%);box-shadow:0 0 50px #d4d3df35,0 0 110px #afbdd329;position:relative}.moon:after{content:'✦';position:absolute;right:-50px;top:45px;font-size:46px;color:var(--gold);text-shadow:0 0 22px var(--gold)}.button{display:inline-flex;justify-content:center;align-items:center;gap:8px;min-height:48px;padding:11px 22px;border-radius:40px;border:1px solid #d8b98588;color:#10121c;background:linear-gradient(135deg,#e6cca0,#b8945e);font:600 13px system-ui,sans-serif;letter-spacing:.4px;transition:transform .2s,filter .2s}.button:hover{transform:translateY(-2px);filter:brightness(1.1)}.button.secondary{background:#ffffff09;color:var(--cream)}.button:disabled{opacity:.35;cursor:not-allowed}.scene{display:none;min-height:calc(100svh - 55px);padding:65px 0 95px;animation:appear .6s ease}.scene.active{display:block}.art{height:230px;border-radius:22px;border:1px solid #d8b9852b;display:grid;place-items:center;margin:24px 0 32px;position:relative;overflow:hidden;background:radial-gradient(circle at 50% 45%,#58637d55,transparent 50%),linear-gradient(140deg,#172137,#080d19)}.art .symbol{font-size:100px;line-height:1;filter:drop-shadow(0 0 25px #f3c98b55);animation:drift 6s ease-in-out infinite alternate}.art:before,.art:after{content:'✧';position:absolute;color:#d5bb83aa;font-size:32px;top:18%;left:14%}.art:after{top:68%;left:81%;font-size:22px}.panel{background:linear-gradient(145deg,#172033dd,#0c1221dd);border:1px solid #c9a97638;border-radius:18px;padding:23px;margin:22px 0;box-shadow:0 12px 45px #0003}.quote{font-size:clamp(18px,3.5vw,22px);color:#f0e2cc;white-space:pre-line}.note{color:#d4bd99;font-style:italic}.options{display:grid;gap:11px;margin:22px 0}.option{width:100%;padding:16px 18px;text-align:left;background:#151d2e;border:1px solid #bfa57d55;border-radius:13px;color:var(--cream);font:16px Georgia;transition:background .2s}.option:hover,.option.selected{background:#303347;border-color:var(--gold)}.revealed{animation:appear .5s ease}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:12px;margin:24px 0}.tile{min-height:110px;border:1px solid #bfa57d55;background:linear-gradient(145deg,#1b2439,#101727);border-radius:15px;padding:16px 10px;color:#f2e3ce;text-align:center}.tile b{display:block;font-size:29px;font-weight:400;margin-bottom:7px}.tile small{font:12px system-ui,sans-serif;color:#d3c0a0}.tile.done{border-color:var(--gold);background:#343047}.nav{display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap;margin-top:35px}.hidden{display:none!important}.secret{background:none;border:0;color:#e3c795;opacity:.55;font-size:24px;padding:12px;transition:opacity .2s}.secret:hover{opacity:1}.secret-box{margin:14px 0;padding:18px;border:1px dashed #d7b87b88;border-radius:12px;color:#f4dbb4;background:#d7b87b10}.chapter-tag{margin:10px 0 26px;color:#a8aab9;font:12px system-ui,sans-serif}.dragon{font-size:110px;text-align:center;filter:drop-shadow(0 0 30px #ad824955)}.constellation{position:relative;height:280px;border:1px solid #d8b98533;border-radius:16px;background:radial-gradient(circle,#25314b,#0a1020);margin:24px 0;overflow:hidden}.point{position:absolute;border:0;background:#fff0bc;width:14px;height:14px;border-radius:50%;box-shadow:0 0 16px 6px #e9cb9170;transform:translate(-50%,-50%);transition:transform .2s}.point.on{background:#fff;transform:translate(-50%,-50%) scale(1.5)}.line{position:absolute;height:1px;background:#e3c48d88;transform-origin:left;pointer-events:none}.footer{padding:40px 0;color:#aca9b3;text-align:center;font:12px system-ui,sans-serif}.tiny{font:12px system-ui,sans-serif;color:#b8b3bf}.pill{border:1px solid #c3a77c55;border-radius:20px;padding:5px 12px;color:#d7c5a7;font:11px system-ui,sans-serif}.sparkle{display:inline-block;color:var(--gold)}.last-name{font-size:clamp(40px,12vw,80px);letter-spacing:12px;color:#f1d4a1;text-shadow:0 0 30px #dfbd7770}.reveal-text{white-space:pre-line}.smallbtn{border:0;background:transparent;color:#c9b18a;text-decoration:underline;padding:7px}.book-page{min-height:155px}.page-turn{animation:appear .5s}.final-glow{height:170px;background:radial-gradient(ellipse at bottom,#e4ad6455,transparent 65%);margin:20px 0 -30px}.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0)}@media(max-width:480px){.art{height:190px}.panel{padding:19px}.moon{width:120px;height:120px}.grid{grid-template-columns:repeat(2,minmax(0,1fr))}.nav .button{flex:1}}@media(prefers-reduced-motion:reduce){*,*:before,*:after{animation:none!important;scroll-behavior:auto!important;transition:none!important}}
+
+/* the sky remembers her — second edition */
+:root{--gold:#e6bd7d;--cream:#f8eddf;--muted:#c2bbca}
+body{background:#070914;font-size:17px;line-height:1.85}
+.sky{background:radial-gradient(ellipse at 80% 3%,#4b345b4d,transparent 42%),radial-gradient(ellipse at 10% 70%,#183f5755,transparent 58%),linear-gradient(180deg,#04060d,#0c1326 58%,#090916)}
+.wrap{width:min(100% - 36px,760px)}
+.scene{padding-top:52px;position:relative}
+.scene:before{content:'';position:absolute;left:50%;top:0;width:70vw;max-width:600px;height:360px;transform:translateX(-50%);z-index:-1;pointer-events:none;background:radial-gradient(ellipse,#bd8b5140,transparent 68%);opacity:.4}
+.scene:nth-child(2n):before{background:radial-gradient(ellipse,#6876c655,transparent 68%)}
+h1,h2{font-family:Georgia,serif;text-shadow:0 2px 30px #05060f}h2{max-width:640px}
+.hero{min-height:calc(100svh - 60px)}
+.hero h1{font-size:clamp(49px,12vw,90px);letter-spacing:-2.5px}
+.moon{box-shadow:0 0 30px #e6d7c566,0 0 100px #e6d7c53b,0 0 180px #7a5f9e36;animation:moonFloat 7s ease-in-out infinite alternate}
+@keyframes moonFloat{to{transform:translateY(-14px);filter:brightness(1.12)}}
+.art{height:clamp(230px,50vw,365px);border-radius:26px;border-color:#d9b78538;box-shadow:0 30px 85px #0007,inset 0 0 80px #0006;background:radial-gradient(circle at 50% 38%,#c8a57c25,transparent 38%),radial-gradient(circle at 30% 85%,#586ca840,transparent 55%),linear-gradient(150deg,#1c263d,#090d19 80%)}
+.art .symbol{font-size:clamp(100px,24vw,160px);text-shadow:0 0 30px #c7a26d55}
+#s2 .art{background:radial-gradient(ellipse at center,#9cb8ce44 0,#25314655 30%,#070a13 75%)}
+#s3 .art{background:repeating-linear-gradient(90deg,#151522 0 19px,#9b744733 20px 21px,#0b101b 22px 36px);box-shadow:inset 0 0 90px #000,0 25px 70px #0006}
+#s4 .art{background:radial-gradient(ellipse at 50% 70%,#b57c453d,transparent 45%),linear-gradient(#1c2535,#070911)}
+#s6 .art{background:radial-gradient(ellipse at 50% 80%,#a2b6d755,transparent 42%),linear-gradient(#060a19,#1e3453 65%,#090b15)}
+#s7 .art{background:radial-gradient(ellipse at 50% 30%,#dbb78142,transparent 42%),linear-gradient(#151625,#070a12)}
+.panel{background:linear-gradient(155deg,#1a2335ee,#0c1120f2);border:1px solid #e1bd8040;padding:clamp(22px,5vw,36px);box-shadow:0 20px 70px #0005,inset 0 1px #ffffff09}
+.quote{line-height:1.9;letter-spacing:.1px;font-size:clamp(19px,3.7vw,23px)}
+.tile{min-height:135px;transition:transform .22s,border-color .22s,box-shadow .22s;background:linear-gradient(145deg,#1d263c,#0b1120)}
+.tile:active,.option:active{transform:scale(.97)}.tile.done{box-shadow:inset 0 0 28px #c49a5325}
+.button{box-shadow:0 4px 30px #b68e5133;min-height:52px}.button.secondary{box-shadow:none}
+.constellation{height:350px;background:radial-gradient(ellipse at 50% 70%,#4c64824a,transparent 62%),linear-gradient(#070c1a,#15223b);box-shadow:inset 0 0 65px #0009,0 20px 60px #0005}
+.point{width:22px;height:22px;cursor:pointer;box-shadow:0 0 10px 4px #f9d49d66,0 0 35px #f7d28b77;z-index:2}
+.point:after{content:'';position:absolute;inset:-17px;border:1px solid #ffe0a955;border-radius:50%;animation:pulseRing 2.5s infinite}
+.point:disabled{cursor:default;opacity:.5;box-shadow:0 0 5px #fff}.point.on:disabled{opacity:1;box-shadow:0 0 12px 5px #ffe7b5}
+@keyframes pulseRing{50%{transform:scale(1.25);opacity:.15}}
+.line{height:2px;background:linear-gradient(90deg,#e2c58e,#fdf0d0);box-shadow:0 0 12px #e3c68d99}
+.scene-transition{font-size:13px;letter-spacing:1px;text-transform:uppercase;color:#d6b985;opacity:.8;margin:22px 0}
+.memory-card{border-left:2px solid #d9b77f;padding:17px 21px;margin:23px 0;background:linear-gradient(90deg,#b8945d18,transparent);color:#f1e1ca;line-height:1.85}
+.intimate{background:radial-gradient(ellipse at 85% 0,#b47c5338,transparent 55%),#151c2c;border:1px solid #e4bb7d55;border-radius:18px;padding:24px;margin:24px 0;box-shadow:0 12px 45px #0005}
+.intimate .eyebrow{margin-bottom:12px}
+.intimate p:last-child{margin-bottom:0}
+.reveal-text{font-size:clamp(19px,3.5vw,23px);line-height:2}
+#s8 .final-glow{height:210px;background:radial-gradient(ellipse at bottom,#e6b47e66,transparent 65%)}
+@media(prefers-reduced-motion:reduce){.moon,.point:after{animation:none!important}}
+</style></head><body><div class="sky"></div><div class="stars" id="stars"></div><div class="haze"></div><header class="top"><div class="wrap top-inner"><span class="brand">✦ the sky remembers her</span><div style="display:flex;align-items:center;gap:9px"><span class="tiny" id="progressLabel">0 / 8</span><div class="progress"><div id="bar" style="width:0"></div></div></div></div></header><main class="wrap">
+<section class="scene active" id="s0"><div class="hero"><div class="moon" aria-hidden="true"></div><div class="eyebrow">a world made for one person</div><h1>the sky<br>remembers her</h1><p class="lead">some stories are written in ink<br>this one was written in the sky</p><p class="sub">for mahra, and only mahra</p><button class="button" onclick="go(1)">enter your story ✦</button><p class="tiny" style="margin-top:25px">best experienced with a little time to yourself</p><button class="secret" aria-label="a hidden star" onclick="secret('moon')">✧</button><div id="moonSecret" class="secret-box hidden">a little secret before we start<br>i made all of this because sometimes a normal message just isn't enough to explain you</div></div></section>
+<section class="scene" id="s1"><div class="eyebrow">prologue · the invitation</div><h2>the kingdom without stars</h2><div class="art"><span class="symbol">✉</span></div><p class="lead">once there was a kingdom that had forgotten its stars</p><p>the night was quiet, the towers were empty and even the moon seemed to be waiting for someone</p><p>then a letter appeared with just one name on it</p><p class="center" style="font-size:34px;color:var(--gold)">mahra</p><div class="panel" id="sealPanel"><p class="note">the letter is sealed with a small golden wing</p><button class="button" onclick="openSeal()">break the seal</button><div id="sealText" class="hidden revealed"><p class="quote">hey you
+
+i know this is a little different from what i usually send you
+
+but i wanted to make you something that feels like your kind of world
+
+so i made you one</p><p>seven stars are missing from this kingdom and apparently you're the only person who can bring them back</p><p class="note">someone who knows the sky left them here for you</p></div></div><button class="secret" onclick="secret('seal')" aria-label="hidden detail">✦</button><div class="secret-box hidden" id="sealSecret">the first clue was never the letter, it was the fact that someone remembered your name</div><div class="nav"><button class="button secondary" onclick="go(0)">back</button><button class="button" id="next1" disabled onclick="go(2)">follow the dragon →</button></div></section>
+<section class="scene" id="s2"><div class="eyebrow">act i · the mirror</div><h2>five things the mirror remembers</h2><div class="art"><span class="symbol">◈</span></div><p>the mirror doesn't show you what the world sees</p><p class="memory-card">the glass goes dark for a moment. then a voice says softly<br><em>he could describe your face from memory. but the way you make him feel when youre close to him... that part is harder</em></p><p>it shows you the little things someone never stopped noticing</p><div class="grid" id="mirrorTiles"></div><div class="panel hidden" id="mirrorReveal"><div class="eyebrow" id="mirrorTitle"></div><p class="quote" id="mirrorText"></p></div><div class="secret-box hidden" id="mirrorSecret">and just so you know, even when your hair is all over my face, i wouldn't move it away</div><button class="secret" onclick="secret('mirror')" aria-label="hidden mirror inscription">✧</button><p class="tiny" id="mirrorCount">0 of 5 reflections found</p><div class="panel hidden" id="mirrorComplete"><p class="note">the first star returns</p><p>the mirror whispers something before its light fades</p><p class="lead">it was never just how beautiful she was</p></div><div class="nav"><button class="button secondary" onclick="go(1)">back</button><button class="button" id="next2" disabled onclick="go(3)">enter the library →</button></div></section>
+<section class="scene" id="s3"><div class="eyebrow">act ii · the library</div><h2>the things you probably never noticed</h2><div class="art"><span class="symbol">♜</span></div><p>four books are waiting on a table, none of them have an author's name</p><p class="memory-card">one of them smells faintly of london rain and coffee. another has a pressed leaf tucked between its pages. somehow this library knows things it shouldnt</p><p>they're filled with ordinary moments that somehow became important</p><p class="sub">open each book. some memories will feel familiar. others are things he never really said out loud</p><div class="grid" id="bookTiles"></div><div class="panel hidden" id="bookReveal"><div class="eyebrow" id="bookTitle"></div><p class="quote" id="bookText"></p></div><button class="secret" aria-label="hidden library page" onclick="secret('library')">✧</button><div class="secret-box hidden" id="librarySecret">you know when you show me something new and i end up getting into it, i think part of why i like it is because it came from you</div><p class="tiny" id="bookCount">0 of 4 books opened</p><div class="panel hidden" id="bookComplete"><p class="note">the second star returns</p><p class="lead">i didn't fall for one perfect moment<br>it was all the little ones</p></div><div class="nav"><button class="button secondary" onclick="go(2)">back</button><button class="button" id="next3" disabled onclick="go(4)">face the guardian →</button></div></section>
+<section class="scene" id="s4"><div class="eyebrow">act iii · the dragon's trial</div><h2>the guardian of the unspoken</h2><div class="art"><span class="symbol">♞</span></div><p class="lead">a black dragon stands between you and the next gate</p><p>he looks intimidating, but he's not here to judge you</p><p class="memory-card">his wings block the doorway and for a second the whole room goes quiet. then he moves aside just enough for you to see the light behind him<br><em>"youre safe here. i was asked to make sure of that"</em></p><p class="note">"i was told to protect these stars until you came. answer what you feel, there are no wrong choices"</p><div class="panel"><div class="eyebrow" id="trialNumber">trial 1 of 3</div><p class="lead" id="trialQuestion"></p><div class="options" id="trialOptions"></div><p class="quote hidden" id="trialResponse"></p><button class="button hidden" id="trialNext" onclick="advanceTrial()">continue →</button></div><button class="secret" onclick="secret('dragon')" aria-label="pet the dragon">✧</button><div class="secret-box hidden" id="dragonSecret">the dragon lets you pet his nose. he pretends he doesn't like it but moves closer anyway</div><div class="panel hidden" id="dragonComplete"><p class="note">the third star returns</p><p>"i think i understand why he wanted me to look after this place for you"</p></div><div class="nav"><button class="button secondary" onclick="go(3)">back</button><button class="button" id="next4" disabled onclick="go(5)">keep going →</button></div></section>
+<section class="scene" id="s5"><div class="eyebrow">act iv · the secret language</div><h2>some things don't need words</h2><div class="art"><span class="symbol">♡</span></div><p>there's a small box here full of expressions, like the stickers we send each other</p><p class="memory-card">the dragon looks confused by the little faces floating in the air. he asks what kind of magic this is. honestly i dont think i could explain our stickers to a dragon either</p><p>pick one and i'll tell you what goes through my head</p><div class="grid" id="stickerTiles"></div><div class="panel hidden" id="stickerReveal"><p class="quote" id="stickerText"></p></div><button class="secret" onclick="secret('sticker')" aria-label="secret sticker">✧</button><div class="secret-box hidden" id="stickerSecret">even the random little stickers make me smile because it's our own way of talking sometimes</div><p class="tiny" id="stickerCount">0 of 4 expressions discovered</p><div class="panel hidden" id="stickerComplete"><p class="note">the fourth star returns</p><p>sometimes we say so much without actually saying anything</p></div><div class="nav"><button class="button secondary" onclick="go(4)">back</button><button class="button" id="next5" disabled onclick="go(6)">follow the stars →</button></div></section>
+<section class="scene" id="s6"><div class="eyebrow">act v · above the clouds</div><h2>a message from the sky</h2><div class="art"><span class="symbol">✈</span></div><p>the dragon leads you to the highest tower</p><p>above it are five stars arranged like a wing. the message has to be read in order, so start with the first glowing star and follow the light</p><p class="memory-card">the wind is colder up here. the dragon folds one wing around you to block it, then points his nose toward the first star<br><em>"he wanted you to hear this when the world was quiet"</em></p><div class="constellation" id="constellation" aria-label="five interactive stars"><button class="point" style="left:13%;top:69%" onclick="trace(0)" aria-label="star one"></button><button class="point" style="left:29%;top:48%" onclick="trace(1)" aria-label="star two"></button><button class="point" style="left:48%;top:33%" onclick="trace(2)" aria-label="star three"></button><button class="point" style="left:68%;top:42%" onclick="trace(3)" aria-label="star four"></button><button class="point" style="left:86%;top:19%" onclick="trace(4)" aria-label="star five"></button></div><p class="tiny" id="skyCount" aria-live="polite">0 of 5 stars lit · tap the glowing star</p><div class="panel hidden" id="skyReveal"><p class="quote" id="skyText"></p></div><button class="secret" onclick="secret('sky')" aria-label="hidden constellation">✧</button><div class="secret-box hidden" id="skySecret">one thing i love about being up there is how quiet everything gets, and somehow you still manage to find your way into my thoughts</div><div class="panel hidden" id="skyComplete"><p class="note">the fifth star returns</p><p>the dragon looks at the glowing wing and smiles</p><p class="lead">"i think you know who left these here now"</p></div><div class="nav"><button class="button secondary" onclick="go(5)">back</button><button class="button" id="next6" disabled onclick="go(7)">open the final letter →</button></div></section>
+<section class="scene" id="s7"><div class="eyebrow">act vi · the man behind the stars</div><h2>okay, it's me</h2><div class="art"><span class="symbol">✒</span></div><p>there's no puzzle here and no dragon asking questions</p><p>just something i've been trying to say in the right way</p><div class="intimate"><div class="eyebrow">before you open the letter</div><p>you know me. i can make a whole plan in my head and still forget to say the simplest thing</p><p>so no puzzles here. just me talking to you</p></div><div class="panel book-page"><p class="quote page-turn" id="letterText"></p><p class="tiny" id="letterPage"></p><button class="button" id="letterNext" onclick="nextLetter()">turn the page →</button></div><button class="secret" onclick="secret('letter')" aria-label="hidden note">✧</button><div class="secret-box hidden" id="letterSecret">i know i can't always get everything right, but caring about you has never been the part i'm unsure about</div><div class="nav"><button class="button secondary" onclick="go(6)">back</button><button class="button" id="next7" disabled onclick="go(8)">the last star →</button></div></section>
+<section class="scene" id="s8"><div class="eyebrow">act vii · the last star</div><h2>the story that doesn't need an ending</h2><div class="final-glow"></div><p>the dragon takes you to the edge of the kingdom, where the sky finally begins to glow again</p><p>there's one star left and it has been waiting for you all along</p><p class="memory-card">the dragon steps back. theres no more gate to open and nothing left to prove. just the sky and the words he wanted you to keep</p><div class="center" style="padding:24px 0"><button class="button" id="lastStar" onclick="finish()">place the last star ✦</button></div><div class="panel hidden" id="finalMessage"><p class="eyebrow center">the sky remembers her</p><p class="center last-name">mahra</p><p class="quote reveal-text">mahra
+
+i could have sent you a normal message. but you know me by now, sometimes i get an idea and i want to make it real
+
+so i made you a whole little world
+
+one with a dragon because i know how much you love your fantasy books. one with the sky because thats a part of my world. and all these tiny things in between because theyre the parts of you i keep with me
+
+i love your hair and your eyes and your smile and your voice. i love the way you tease me and the way you care. i love your curiosity and your stubbornness and how you somehow make me interested in things i never thought id care about
+
+and i love the quiet moments too
+
+the ones where i could just have you close and not need to fill every second with words
+
+if theres anything i want you to take from this its that you dont have to be perfect with me. you dont have to be happy all the time or have everything figured out
+
+i care about you as you are
+
+and i want to keep showing you that in the little things not just in something big like this
+
+i love you mahra
+
+thats really it. thats the whole story</p><p class="note center">made for you with more thought than i could fit into a message</p><div class="center"><button class="secret" aria-label="one last hidden message" onclick="secret('final')">✧</button><div class="secret-box hidden" id="finalSecret">and if you were wondering, yes i really did sit down and make an entire little fantasy world just for you</div></div></div><div class="nav"><button class="button secondary" onclick="go(7)">back</button><button class="button secondary" onclick="restart()">start again ↺</button></div></section>
+</main><footer class="footer wrap">for mahra ♡ · made with care, not magic (okay maybe a little)</footer><script>
+const $=id=>document.getElementById(id);let stage=0;const key='mahra-sky-v2';const saved=JSON.parse(localStorage.getItem(key)||'{}');const state={seal:!!saved.seal,mirrors:saved.mirrors||[],books:saved.books||[],stickers:saved.stickers||[],trial:saved.trial||0,sky:saved.sky||[],letter:saved.letter||0,finish:!!saved.finish,secrets:saved.secrets||[]};function persist(){localStorage.setItem(key,JSON.stringify(state))}function go(n){if(n>1&&!state.seal)return;if(n>2&&state.mirrors.length<5)return;if(n>3&&state.books.length<4)return;if(n>4&&state.trial<3)return;if(n>5&&state.stickers.length<4)return;if(n>6&&state.sky.length<5)return;if(n>7&&state.letter<letters.length-1)return;stage=n;document.querySelectorAll('.scene').forEach((el,i)=>el.classList.toggle('active',i===n));$('bar').style.width=(n/8*100)+'%';$('progressLabel').textContent=n+' / 8';window.scrollTo({top:0,behavior:'smooth'});history.replaceState(null,'','#chapter-'+n)}function secret(name){let el=$(name+'Secret');el.classList.toggle('hidden');if(!state.secrets.includes(name)){state.secrets.push(name);persist()}}function openSeal(){state.seal=true;$('sealText').classList.remove('hidden');$('next1').disabled=false;persist()}
+const mirrors=[
+['her hair',`i love your hair mahra
+
+i love the way it smells when youre close to me and the way it falls across my face. i dont think you understand how much i love those little moments
+
+sometimes i just want to pull you a little closer and stay there. no phone no noise no rushing anywhere. just you right there with me`],
+['her eyes',`your eyes are actually unfair
+
+especially when you look at me with that little shine in them. i can be in the middle of saying something and completely forget what i was talking about
+
+i love your eyebrows too by the way. the way they frame your eyes and give away exactly what youre thinking before you even say a word`],
+['her smile',`that smile of yours does something to me
+
+and i dont just mean when youre smiling at me. i love seeing you genuinely happy even if im just watching you laugh at something random
+
+if i could keep one thing from a long day it would probably be that look on your face when youre happy`],
+['her voice',`i love your voice
+
+i know i tease you sometimes but i could listen to you talk about the most random things for hours. especially when you get excited and start telling me every little detail
+
+and when everything in my head is loud your voice has this way of making it quiet again`],
+['her eyebrows',`yes im giving your eyebrows their own page
+
+i notice them when youre annoyed when youre pretending not to laugh and when youre about to say something sarcastic
+
+i know that face. and honestly sometimes i want to kiss your forehead just to interrupt whatever argument youre about to win`]];function tiles(container,data,seen,cb){$(container).innerHTML='';data.forEach((a,i)=>{let b=document.createElement('button');b.className='tile'+(seen.includes(i)?' done':'');b.innerHTML='<b>'+(seen.includes(i)?'✦':'✧')+'</b><small>'+a[0]+'</small>';b.onclick=()=>cb(i);$(container).appendChild(b)})}function mirror(i){if(!state.mirrors.includes(i))state.mirrors.push(i);$('mirrorTitle').textContent=mirrors[i][0];$('mirrorText').textContent=mirrors[i][1];$('mirrorReveal').classList.remove('hidden');$('mirrorCount').textContent=state.mirrors.length+' of 5 reflections found';tiles('mirrorTiles',mirrors,state.mirrors,mirror);if(state.mirrors.length===5){$('mirrorComplete').classList.remove('hidden');$('next2').disabled=false}persist()}
+const books=[
+['the book of mischief',`i love how you tease me
+
+you know exactly which buttons to press and you do it with that look like youre completely innocent
+
+and the funny thing is i dont even mind losing to you sometimes. i like seeing that side of you. the one that feels comfortable enough to be silly with me
+
+just dont get too confident about winning every argument`],
+['the book of discoveries',`you keep introducing me to things and somehow they end up becoming part of my life
+
+matcha is one of them. the books you tell me about too. you made me curious about worlds i probably wouldnt have picked up on my own
+
+and now sometimes i see something in a shop or hear someone mention a place and my first thought is that youd like it
+
+thats what you do. you leave little pieces of yourself in my everyday life`],
+['the book of quiet care',`i notice how much care you put into yourself
+
+your hair your skin your face your health. all the little routines you have. i know sometimes i remind you about things and probably sound like im being annoying
+
+but i like being involved in the small parts of your day. not to tell you what to do. i just want you feeling good and looking after yourself
+
+and i want you to know that if you have a difficult day i care about that version of you too`],
+['the book of conversations',`i think one of my favorite things about us is how we can go from something serious to something completely ridiculous
+
+you can be stubborn and sarcastic and then suddenly youre telling me about something you love with so much excitement
+
+sometimes i remember our random conversations later and catch myself smiling
+
+and honestly even the little things you bring me or remember about me stay with me. i notice when you care mahra. i really do`]];function book(i){if(!state.books.includes(i))state.books.push(i);$('bookTitle').textContent=books[i][0];$('bookText').textContent=books[i][1];$('bookReveal').classList.remove('hidden');$('bookCount').textContent=state.books.length+' of 4 books opened';tiles('bookTiles',books,state.books,book);if(state.books.length===4){$('bookComplete').classList.remove('hidden');$('next3').disabled=false}persist()}
+const trials=[{q:'if you could keep one thing from a lifetime, what would it be',a:[['the moments that made me happy','then you understand why he remembers even the smallest moments with you'],['the people i loved','then you understand why the connection you share means so much to him'],['the things that made me stronger','then you understand why knowing you makes him want to become better']]},{q:'what do you think is the strongest kind of magic',a:[['making someone laugh','he would agree. you can change his entire mood just by teasing him'],['making someone feel safe','he would agree. your voice has a way of calming things in him'],['helping someone grow','he would agree. you make him want to be a better version of himself']]},{q:'what should a person notice about someone they love',a:[['the little habits','he notices those, even the things you think are too small to mention'],['the way they treat others','he admires your kindness and the way you care'],['who they are on difficult days','he wants to care about all of you, not just the easy moments']]}];function renderTrial(){if(state.trial>=3){$('dragonComplete').classList.remove('hidden');$('next4').disabled=false;$('trialNumber').textContent='the guardian has opened the gate';$('trialQuestion').textContent='you made it through';$('trialOptions').innerHTML='';$('trialResponse').classList.add('hidden');$('trialNext').classList.add('hidden');return}let t=trials[state.trial];$('trialNumber').textContent='trial '+(state.trial+1)+' of 3';$('trialQuestion').textContent=t.q;$('trialResponse').classList.add('hidden');$('trialNext').classList.add('hidden');$('trialOptions').innerHTML='';t.a.forEach(a=>{let b=document.createElement('button');b.className='option';b.textContent=a[0];b.onclick=()=>{$('trialOptions').querySelectorAll('button').forEach(x=>x.disabled=true);b.classList.add('selected');$('trialResponse').textContent='the dragon lowers his head\n\n"'+a[1]+'"';$('trialResponse').classList.remove('hidden');$('trialNext').classList.remove('hidden')};$('trialOptions').appendChild(b)})}function advanceTrial(){state.trial++;persist();renderTrial()}
+const stickers=[
+['😤',`okay that face means im in trouble
+
+i know when youre annoyed and i know teasing you at the wrong moment is not going to help. so id probably just pull you close if you wanted that and let you tell me whats wrong
+
+i like your fire mahra. i just never want you feeling like you have to handle everything alone`],
+['😏',`there it is
+
+that look right before you start teasing me. i can already tell youre enjoying yourself
+
+come here. say it to my face and try not to laugh. i dare you`],
+['🥹',`i love this version of you
+
+not because i need you to be happy all the time. i just love seeing you light up over something small
+
+when you get excited about a book or a little surprise i want to hear every detail`],
+['❤️',`sometimes all we send is a sticker or a heart
+
+but when its from you i dont look at it like its nothing
+
+it feels like a tiny way of saying im here. and i hope mine makes you feel that too`]];function sticker(i){if(!state.stickers.includes(i))state.stickers.push(i);$('stickerText').textContent=stickers[i][1];$('stickerReveal').classList.remove('hidden');$('stickerCount').textContent=state.stickers.length+' of 4 expressions discovered';tiles('stickerTiles',stickers,state.stickers,sticker);if(state.stickers.length===4){$('stickerComplete').classList.remove('hidden');$('next5').disabled=false}persist()}
+const skyParts=[
+`you know how much the sky means to me
+
+its one of the few places where everything else feels so far away and i can finally hear myself think`,
+`but theres something i dont think ive ever told you properly
+
+sometimes after a long day around aircraft i dont want another conversation with the whole world. i just want to hear your voice`,
+`i think about the little things more than youd expect
+
+your hair falling across my face. that look in your eyes. the way you tease me and then act like you did absolutely nothing`,
+`and if i was beside you right now id probably put my arm around you and pull you close
+
+not because i have some perfect thing to say. just because i like knowing youre there and youre comfortable with me`,
+`the sky is a big part of my life mahra
+
+but i dont need to be above the clouds to know what matters to me. sometimes all i want is to come back down and find you smiling at me`];
+function renderSky(){
+const pts=[...document.querySelectorAll('#constellation .point')];
+const count=state.sky.length;
+pts.forEach((p,i)=>{p.classList.toggle('on',i<count);p.disabled=i!==count;p.setAttribute('aria-label',i===count?'next star '+(i+1):i<count?'star '+(i+1)+' completed':'star '+(i+1)+' locked');p.title=i===count?'tap this star next':i<count?'already revealed':'follow the stars in order'});
+$('skyCount').textContent=count===5?'all five stars connected':count+' of 5 stars lit · follow the next glowing star';
+$('skyText').textContent=skyParts.slice(0,count).join('\n\n✦\n\n');
+$('skyReveal').classList.toggle('hidden',count===0);
+$('skyComplete').classList.toggle('hidden',count!==5);
+$('next6').disabled=count!==5;
+const c=$('constellation');c.querySelectorAll('.line').forEach(l=>l.remove());
+const coords=[[13,69],[29,48],[48,33],[68,42],[86,19]];
+for(let i=1;i<count;i++){const [x1,y1]=coords[i-1], [x2,y2]=coords[i];const dx=(x2-x1)/100*c.clientWidth,dy=(y2-y1)/100*c.clientHeight;const l=document.createElement('div');l.className='line';l.style.left=x1+'%';l.style.top=y1+'%';l.style.width=Math.hypot(dx,dy)+'px';l.style.transform='rotate('+Math.atan2(dy,dx)+'rad)';c.appendChild(l)}
+}
+function trace(i){if(i!==state.sky.length)return;state.sky.push(i);persist();renderSky();if(navigator.vibrate)navigator.vibrate(20);}
+const letters=[
+`mahra
+
+remember how we can talk about something completely random and somehow i end up thinking about it again later
+
+its been like that with you for longer than i can explain. there are memories of us from when we were younger and then there is everything weve found again since
+
+i dont think a connection like that is something you can just replace`,
+`i notice the way you care
+
+the little gifts and things you remember. the way you introduce me to something you love and want me to be part of it. the way you can be so independent and stubborn but still have such a soft side
+
+you dont need to make a big announcement when you care. i see it in the things you do`,
+`i love how smart you are and how you have your own opinions
+
+i love your curiosity and how you get excited when you talk about something you love. i love that you can challenge me and make me laugh in the same conversation
+
+and yes i love your stubborn side too even when it drives me a little crazy`,
+`i know sometimes i overthink things
+
+i try to calculate every detail and make everything perfect and then somehow miss something simple that would have mattered more
+
+im learning that being good to you isnt about having the perfect plan or the perfect words. its about listening properly remembering what matters and being there when it counts
+
+i want to keep getting better at that. not just saying it`,
+`and theres something else
+
+when youre tired or stressed or not in the mood to talk i dont want you feeling like you have to be the cheerful version of yourself for me
+
+i want you to be able to lean on me too. i want to hold you close when you need that and give you space when you need that instead
+
+im not trying to win some perfect story mahra. i just care about the real you`,
+`you bring out a version of me that i genuinely like
+
+someone who wants to listen better be more patient pay attention and keep his word
+
+i could tell you a hundred times how beautiful you are. and i will probably still find new ways to say it
+
+but what i really hope you understand is that i see you. not just the pretty parts. all of you. and i love you for it`];function renderLetter(){$('letterText').textContent=letters[state.letter];$('letterPage').textContent='page '+(state.letter+1)+' of '+letters.length;if(state.letter===letters.length-1){$('letterNext').textContent='you reached the last page';$('letterNext').disabled=true;$('next7').disabled=false}else{$('letterNext').textContent='turn the page →';$('letterNext').disabled=false}}function nextLetter(){if(state.letter<letters.length-1)state.letter++;persist();renderLetter()}
+function finish(){state.finish=true;$('finalMessage').classList.remove('hidden');$('lastStar').textContent='the last star is home ✦';$('lastStar').disabled=true;persist();$('finalMessage').scrollIntoView({behavior:'smooth',block:'start'})}function restart(){if(confirm('start the story again? your discoveries will reset')){localStorage.removeItem(key);location.href=location.pathname}}
+function restore(){if(state.seal){$('sealText').classList.remove('hidden');$('next1').disabled=false}tiles('mirrorTiles',mirrors,state.mirrors,mirror);tiles('bookTiles',books,state.books,book);tiles('stickerTiles',stickers,state.stickers,sticker);if(state.mirrors.length===5){$('next2').disabled=false;$('mirrorComplete').classList.remove('hidden')}if(state.books.length===4){$('next3').disabled=false;$('bookComplete').classList.remove('hidden')}if(state.stickers.length===4){$('next5').disabled=false;$('stickerComplete').classList.remove('hidden')}renderTrial();state.sky=Array.from({length:Math.min(5,state.sky.length)},(_,i)=>i);renderSky();renderLetter();if(state.finish){$('finalMessage').classList.remove('hidden');$('lastStar').disabled=true;$('lastStar').textContent='the last star is home ✦'}state.secrets.forEach(s=>{let e=$(s+'Secret');if(e)e.classList.remove('hidden')});let max=0;if(state.seal)max=1;if(state.mirrors.length===5)max=2;if(state.books.length===4)max=3;if(state.trial>=3)max=4;if(state.stickers.length===4)max=5;if(state.sky.length===5)max=6;if(state.letter===letters.length-1)max=7;if(state.finish)max=8;let h=Number(location.hash.replace('#chapter-',''));go(Number.isInteger(h)&&h>=0&&h<=max?h:max)}for(let i=0;i<95;i++){let s=document.createElement('i');s.className='star';s.style.left=(Math.random()*100)+'%';s.style.top=(Math.random()*100)+'%';s.style.animationDelay=(Math.random()*4)+'s';s.style.animationDuration=(2+Math.random()*5)+'s';$('stars').appendChild(s)}restore();window.addEventListener('resize',()=>{if(state.sky.length)renderSky()});
+</script></body></html>
